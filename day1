@@ -1,5 +1,0 @@
-// dev tools console
-const values = document.body.textContent.split(`\n`)
-let count = 0
-values.forEach((val, i) => if (values[i+1] > val) count++))
-// is off by one. answer is 1374, not 1373
